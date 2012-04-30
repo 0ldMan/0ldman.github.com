@@ -48,6 +48,69 @@ div.box {
 <!--// SEARCH -->
 
 
+<hr />
+
+
+<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (начало) -->
+
+<div id="ymaps-map-container" style="width: 525px; height: 435px;"></div>
+<div style="width: 525px; text-align: right;"><a 
+href="http://api.yandex.ru/maps/tools/constructor/?lang=ru-RU" target="_blank" 
+style="color: #1A3DC1; font: 13px Arial,Helvetica,sans-serif;"
+>Создано с помощью инструментов Яндекс.Карт</a></div>
+
+<script type="text/javascript" src="http://api-maps.yandex.ru/2.0/?coordorder=longlat&load=package.full&wizard=constructor&lang=ru-RU"></script>
+<script type="text/javascript">
+ymaps.ready(function() {
+    var map = new ymaps.Map("ymaps-map-container", {
+        center: [61.415846859893755, 55.16964086051828],
+        zoom: 16,
+        type: "yandex#map"
+    });
+    map.controls
+        .add("zoomControl")
+        .add("mapTools")
+        .add(new ymaps.control.TypeSelector(["yandex#map", "yandex#satellite", "yandex#hybrid", "yandex#publicMap"]));
+    map.geoObjects
+        .add(new ymaps.Placemark([61.41608289428712, 55.17131738129804], {
+            balloonContent: "ЭЛТРА"
+        }, {
+            preset: "twirl#blueDotIcon"
+        }))
+        .add(new ymaps.Placemark([61.414827620467264, 55.168805644059724], {
+            balloonContent: "ост. трамвай 5, 8"
+        }, {
+            preset: "twirl#lightblueDotIcon"
+        }))
+        .add(new ymaps.Polyline([
+            [61.415932690582224, 55.171268253485934],
+            [61.415460621795546, 55.17097655585987],
+            [61.41558936782833, 55.168793361529964],
+            [61.4149027223205, 55.16877493744913]
+        ], {
+            balloonContent: ""
+        }, {
+            strokeColor: "ff0000",
+            strokeWidth: 5,
+            strokeOpacity: 0.8
+        }))
+        .add(new ymaps.Polyline([
+            [61.41557863899228, 55.16880564425865],
+            [61.4156430120086, 55.167921278466906],
+            [61.416136538467384, 55.167749316179176]
+        ], {
+            balloonContent: ""
+        }, {
+            strokeColor: "ff0000",
+            strokeWidth: 5,
+            strokeOpacity: 0.8
+        }));
+});
+</script>
+<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (конец) -->
+
+
+
 
   </p>
 
