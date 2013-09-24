@@ -1,0 +1,283 @@
+Attaching interface lo0... done
+Attached IPv4 interface to motfcc unit 0
+Attached IPv6 interface to motfcc unit 0
+usrNetBootConfig: Failed addGateway
+
+Adding 41054 symbols for standalone.
+
+
+                VxWorks
+
+Copyright 1984-2002  Wind River Systems, Inc.
+
+            CPU: Motorola MPC82xx ADS - HIP7
+   Runtime Name: VxWorks
+Runtime Version: 5.5.1
+    BSP version: 1.2/1
+        Created: Apr 10 2013, 10:11:45
+  WDB Comm Type: WDB_COMM_END
+            WDB: Ready.
+
+[SYS] Initializing Memory card driver.
+-> usage: rtsolStart [-dD1] [-m delay] interfaces...
+snmpInitTrapServerEntry() 447 : os7x_initialize failed.  be continued anyway.
+
+OEM ID : 454a
+
+
+[SYS] The card (SD 2GB) has been detected.
+
+
+##################################################################
+
+                    FileSystem chkdsk
+
+/card/  - disk check in progress ...
+/card/LPPSV432.PGM/card/certification/card/certification/SIP/card/certification/SIP/caCert.der/card/certification/SIP/caCert.pem /card/certification/SIP/myCert.der /card/certification/SIP/myCert.pem /card/certification/SIP/myPrvKey.der/card/certification/SIP/myPrvKey.pem /card/certification/SIP/rootCaCert.der/card/certification/SIP/rootCaCert.pem /card/certification/MVS                /card/certification/MVS/caCert.pem     /card/certification/MVS/myCert.pem /card/certification/MVS/myPrvKey.pem/card/DM                             /card/DM/OSDM.JAR                    /card/DM/osdm.jnlp/card/DM/OSDMHELP.JAR/card/DM/osdm_public.jnlp/card/DM/office_phonebook.xml/card/caCert.pem              /card/MPS_V470.PGM/card/myCert.pem   /card/myPrvKey.pem/card/MDI.log      /card/MDI.db  "/card/MDI.db" too many clusters in file, adjusted.
+/card/SYS.DB /card/USR.DB                                                 dosChkLib : CLOCK_REALTIME is being reset to THU MAY 02 10:55:24 2013
+Value obtained from file system volume descriptor pointer: 0x60c0f78
+The old setting was THU JAN 01 00:00:00 1970
+Accepted system dates are greater than THU DEC 27 00:00:00 1990
+/card/  - Errors detected. To correct disk structure, please start check disk with a permission to repair.
+
+	  total # of clusters:	59,992
+	   # of free clusters:	58,906
+	    # of bad clusters:	0
+	     total free space:	1,840 Mb
+     max contiguous free space:  1,930,231,808 bytes
+		   # of files:	25
+		 # of folders:	4
+	 total bytes in files:	33,860 Kb
+	     # of lost chains:	1
+   total bytes in lost chains:  32,768
+
+
+[SYS] The filesystem is mounted successfully.
+
+##################################################################
+
+httpMudCreate: MUD 0x5dd6408 was created
+httpInit: Upload RPM successfully initialized.
+httpInit: CGI successfully initialized.
+httpInit: System File Registry successfully initialized.
+httpInit: System File Manager successfully initialized.
+httpInit: File System RPM successfully initialized.
+httpInit: RPM dispatcher successfully initialized.
+httpInit: MIME type guessing RPM successfully initialized.
+httpInit: HTTP server connected successfully to WindManage Backplane.
+httpInit: Post RPM successfully initialized.
+httpInit: http IP checking successfully initialized.
+httpInit: http Password Checking successfully initialized.
+httpInit: http Access Control successfully initialized.
+[AX-SA] OS Tree Attached 
+oopsTSM: Set the monitoring period to 15 seconds.
+ System memory size: 108 (0x6c00000)
+ The base address to save collected data: 0x5b93b18
+START_INIT
+
+
+
+<<< OfficeServ 7200(MP20), Samsung >>>
+[I2C_DBG] RTC Time range check O.K (HH:MIN:SS  MM/DD YEAR [WEEK]) = 00:16:34  04/08  2013 [1]
+
+RSR:[0x00000003]
+
+System starts at 00:16:34(s) 04/08, 2013 [Monday] (reason=Power On)
+ 
+ InitOS task monitor 
+
+::: getaddrinfo succeeded
+RTM_ADD: Add Route: len 184, pid: 0, seq 1, errno 0, if# 0, flags:<UP,GATEWAY,STATIC>
+locks:  inits: 
+sockaddrs: <DST,GATEWAY,NETMASK>
+ :: :: ::
+add net default: gateway ::
+
+[SYS] Initialize OS...Skip a JNLP file
+
+[SYS] Created task Msg Queue...
+[SYS] Created vtimer Task : Task test...
+[SYS] Created Mdi Task...
+############################################################
+# Sync Port                7000
+# Cli Port                 7001
+# CardNum                  20
+# Prompt Num               10
+# ConfHourStatNum          9000
+# ResvSize                 3000
+# Complete Size            1000
+# Cancel Size              1000
+# EarlyTime                0
+# MaxRecordTime            300
+# MailServerOption         0
+# MailServerIp             0.0.0.0
+# MailServerPort           0
+# JoinAlarmOption          1
+# PasswordAlarmOption      1
+# WhoamiAlarmOption        1
+# SpaOption                1
+# TimeZone                 1
+# GreetingAnounceOption    1
+# RecordThreshold          90
+# DailyHour                3
+# DailyMin                 0
+# ArrangeThreshold         95
+############################################################
+
+[SYS] Created config Task...
+[CFG] Cfg Task wait Media Task Start 
+[SYS] Created errh Task...
+[SYS] Created np_per Task...
+[SYS] Created usrprt Task...
+[SYS] Created diag Task...
+[SYS] Created smart Task...
+[MEDIA] Media Task initial end...
+[SYS] Created main call Task...
+[SYS] Created p_per Task...
+[SYS] Created smdr Task...
+[SYS] Created task0a Task...
+[SYS] Created hmmc Task...
+[SYS] Created dbsave Task...
+[SYS] Created sio Task...
+[MDI] Service IS READY
+
+[SYS] Created lan Task...
+[SYS] Created task2b Task...
+[SYS] Created ipc Task...
+[IPC]-- Start IPC_TASK Initial...
+[IPC]-- hdlc_debug_print_flag(2byte)  address is  0x28829ae
+[IPC]-- hdlc_debug_print_flag2(2byte)  address is 0x26423f8
+initialize2_hdlc calls comman2_init_hdlc()
+[IPC]-- Completed IPC Initial...
+[SYS] Created wsg Task...
+[CFG] Cfg Task Initial Start 
+[CFG] Cfg Database Check Start
+[CFG] BD_7000MP_ID (6f)
+[SYS] Created pdhcp Task...
+[SYS] Created fpp Task...
+[SYS] Created lm Task...
+[SYS] Created wlan_telnet Task...
+[SYS] Created hello Task...
+[SYS] Created TRAP Task...
+[SYS] Created startup Task...
+[SYS] Created install Task...
+[SYS] Created cti io Task...
+[SYS] Created ipp Task...
+[SYS] Created inet Task...
+[SYS] Created Provisioning Task...
+[SYS] Created Mvs Task...
+[SYS] Created Dns Task...
+[SYS] Created NTP Task...
+[SYS] Created sip Task...
+[SYS] Created h323 Task...
+[SYS] Created emgw ipc Task...
+[SYS] Created smtp manager Task...
+[SYS] Created smtp client  Task...
+[SYS] Created spmain Task...
+
+------------  <<<<  MP20 SP S/W  >>>>   V04.61   (2013.01.04 16:48)    INITIAL START -------------
+[DBG]MP20 Watchdog Off 
+
+[SYS] MP20 RESET REASON: POWER ON
+[SYS] ALL CARD RESET START (0xE0)
+[SYS] ALL CARD & DEVICE RESET END
+[SYS] MP20 OPTION BD CARD ID READ
+      (OPT CARD ID)
+[SYS] MP20 DB INITIAL END
+[SYS] MP20 ENGINE T-SW INITIAL END
+[SYS] MP20 SYSTEM CODEC: A-law(0x20)
+[SYS] MP20 SLOT CARD ID READ
+ SLOT[00]:0x8B SLOT[01]:0xFF SLOT[02]:0xFF SLOT[03]:0xFF SLOT[04]:0xFF
+[SYS] MP20 SLOT CARD INITIAL END
+[SYS] MP20 POWER CONTROL DB INITIAL
+[SYS] MP20 DLI Interrupt MASK (INTD: 0xFF)
+[SYS] MP20 DLI Interrupt MASK (INTS: 0xFF)
+[SYS] SP INITIAL COMPLETED...
+[SYS] Created sp50m Task...
+[SYS] Created sp10m Task...
+[SYS] Created spmon Task...oops: The task(tH323) was registered without a callback function.
+oops: The task(tSIP) was registered without a callback function.
+
+[CFG_TASK] flash_initial_setup SUCCESS !!
+[DBS_TASK] dbs_area.dbs: flash_fread OK size (14c00)
+[DBS_TASK] dbs_stat.dbs: flash_fread OK size (13e00)
+[CFG] check_country_code_from_eeprom mcdb_restore(01) eeprom(15), sysdb(15), COUNTRY_1(15), buf(16)
+
+[CFG] Database Memory Recovered from Backup Memory
+[CFG] Cfg Database Check End
+DIPSW:f6
+
+[CFG] Cfg Task Initial End
+[CFG] Database Memory Saved to Memory DeviceSkip a JNLP file
+
+[CFG] DB_AREA_DATA (addr=0x7000000, size=2285774)
+[INIT] CFG Online!!
+
+[SYS] MP20 ENGINE(9604) MFS INITIAL
+      in mid_A_subid_0()
+
+[SYS] MP20 RACK TYPE CONFIGURED : OS7200
+[SYS] MP20 SP STATUS ASK RECV(LP_NO ASSIGNED TO 00: MATCHED)
+[CFG]CARD ACTIVE : card_con_srv_sub(lpno=0, slot=0, card=0x8b, ins_sts=1)
+[CFG]CARD ACTIVE : card_con_srv_sub(lpno=0, slot=1, card=0xff, ins_sts=1)
+[CFG]CARD ACTIVE : card_con_srv_sub(lpno=0, slot=2, card=0xff, ins_sts=1)
+[CFG]CARD ACTIVE : card_con_srv_sub(lpno=0, slot=3, card=0xff, ins_sts=1)
+[CFG]CARD ACTIVE : card_con_srv_sub(lpno=0, slot=4, card=0xff, ins_sts=1)
+[CFG] Config Task initial end...
+[SYS] MP20 ENGINE(9604) MFS INITIAL
+[SYS] MP20 ENGINE(9604) CHIP MFR FUNCTION INITIAL
+[DBS] START DB Backup to Nand Flash...
+[SYS] MP20 SYSTEM CODEC: A-law(0x30)
+[SYS] MP20 SYSTEM REF CLOCK SET: 0x3F
+[SYS] MP20 CARD ACTIVATION MSG RECEIVED (SLOT: 0x00)
+[SYS] MP20 DLI CARD ACT RCVD (SLOT: 0x00)
+[SYS] MP20 RACK TYPE CONFIGURED : OS7200
+[CFG] CLK_STS (s_task: 16) (LP:0) (0->0) (0->0) (0->0)  
+[CFG] Reference Clock Same: 0xff -> 0xff
+[SYS] MP20 ENGINE(9604) MFS INITIAL
+[SYS] MP20 ENGINE(9604) CHIP MFR FUNCTION INITIAL
+[SYS] MP20 ENGINE(9604) MFS INITIAL
+      in mid_A_subid_0()
+
+[SYS] MP20 RACK TYPE CONFIGURED : OS7200
+[SYS] MP20 SP STATUS ASK RECV(LP_NO ASSIGNED TO 00: MATCHED)
+[SYS] MP20 ENGINE(9604) MFS INITIAL
+      in mid_A_subid_0()
+
+[SYS] MP20 RACK TYPE CONFIGURED : OS7200
+[SYS] MP20 SP STATUS ASK RECV(LP_NO ASSIGNED TO 00: MATCHED)
+[SYS] MP20 ENGINE(9604) MFS INITIAL
+[SYS] MP20 ENGINE(9604) CHIP MFR FUNCTION INITIAL
+[SYS] MP20 ENGINE(9604) MFS INITIAL
+[SYS] MP20 ENGINE(9604) CHIP MFR FUNCTION INITIAL
+[DLI] 8COMBO3 CARD INIT START in DLILink, SLOT 00
+[SP_DLI] COMBO CARD INITIAL IN REQ_SRV, SLOT 00
+[SP] VXT SLOT 0x00 Firmware Download Complete.
+VXT SLOT 0 FW VER. 03.04.00.03.00
+[SLI3] SLOT:0x00 SLST : 0x0F
+[SP] VXT SLOT 0x00 BBD Download Complete.
+[SP] VXT SLOT 0x00 Channel Configuration Complete.
+ [ALLOC_SIP_STACK] sip_trk(0), sip_stn(0), wip_no(32), ip_ums(0) sip_appl_no (0)
+[SIPM:-01]In init_config_sip_channel, MAX_PORT_SIP = 0,  MAX_PORT_SIPTRK = 0, MAX_PORT_STNDSIPP = 0,MAX_PORT_INTERNAL = 0, sipAppl_no = 0, MAX_PORT_WIP = 32
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+
+[DBS] END DB Backup to Nand Flash...[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
+[SIPM:-01]In init_config_sip_ua_para, IP Address Setting Miss
